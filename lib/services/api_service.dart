@@ -13,10 +13,17 @@ class ApiService {
   /// Default URL. Build time par badal sakte hain:
   ///   flutter run --dart-define=API_BASE_URL=https://yourdomain.com/api
 
+// static const String defaultBaseUrl = String.fromEnvironment(
+//   'API_BASE_URL',
+//   defaultValue: 'http://192.168.1.17:4000/api',
+// );
+
+
 static const String defaultBaseUrl = String.fromEnvironment(
   'API_BASE_URL',
-  defaultValue: 'http://192.168.1.17:4000/api',
+  defaultValue: 'https://ludoapi-3.onrender.com/api',
 );
+
 
 
 

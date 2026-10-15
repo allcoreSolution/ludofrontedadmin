@@ -92,7 +92,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 controller: url,
                 decoration: const InputDecoration(
                   labelText: 'API Base URL',
-                  hintText: 'http://192.168.1.20:4000/api',
+                  hintText: 'https://ludoapi-3.onrender.com/api',
                   border: OutlineInputBorder(),
                   prefixIcon: Icon(Icons.link),
                 ),

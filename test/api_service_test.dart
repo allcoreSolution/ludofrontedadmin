@@ -15,7 +15,7 @@ void main() {
 
   group('ApiService Configuration & State Tests', () {
     test('Default base URL is properly set', () {
-      expect(ApiService.baseUrl, equals('http://192.168.1.20:4000/api'));
+      expect(ApiService.baseUrl, equals(ApiService.defaultBaseUrl));
       expect(ApiService.token, isNull);
       expect(ApiService.currentAdmin, isNull);
       expect(ApiService.isSuperAdmin, isFalse);
